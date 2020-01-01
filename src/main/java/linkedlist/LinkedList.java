@@ -13,6 +13,10 @@ public class LinkedList {
         ++size;
     }
 
+    public ListNode getHead() {
+        return head;
+    }
+
     // 直接添加节点
     public void add(ListNode node) {
         if (head == null) {

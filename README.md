@@ -32,6 +32,10 @@
 
 1. 【重点】[T19_删除链表的倒数第N个节点](src/main/java/linkedlist/T19_删除链表的倒数第N个节点.java)
 
+1. [T24_两两交换链表中的节点](src/main/java/linkedlist/T24_两两交换链表中的节点.java)
+
+1. [T61_旋转链表](src/main/java/linkedlist/T61_旋转链表.java)
+
 ## 哈希表
 
 【简单难度】
