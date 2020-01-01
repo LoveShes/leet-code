@@ -19,7 +19,7 @@ public class LinkedList {
             head = node;
         } else {
             ListNode curr = head;
-            for (int i = 0; i < size-1; i++) {
+            while (curr.next != null) {
                 curr = curr.next;
             }
             curr.next = node;
@@ -34,11 +34,12 @@ public class LinkedList {
 
     @Override
     public String toString() {
-        StringBuilder string = new StringBuilder();
         ListNode node = head;
+        StringBuilder string = new StringBuilder();
+        string.append("size=").append(size);
         for (int i = 0; i < size; i++) {
             if (i == 0) {
-                string.append(node.val);
+                string.append(", ").append(node.val);
             } else {
                 string.append(" -> ").append(node.val);
             }

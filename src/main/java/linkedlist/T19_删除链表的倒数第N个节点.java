@@ -113,10 +113,14 @@ public class T19_删除链表的倒数第N个节点 {
         ListNode head = new ListNode(5);
         LinkedList list = new LinkedList(head);
         list.add(4);
+        list.add(3);
+        list.add(2);
+        list.add(1);
+        System.out.println(list);
         // list.add(3);
         // list.add(2);
         // list.add(1);
-        ListNode result = new T19_删除链表的倒数第N个节点().removeNthFromEnd3(head, 2);
-        System.out.println(result);
+        // ListNode result = new T19_删除链表的倒数第N个节点().removeNthFromEnd3(head, 2);
+        // System.out.println(result);
     }
 }
