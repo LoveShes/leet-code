@@ -5,14 +5,16 @@ public class ListNode {
     ListNode next;
     ListNode(int x) { val = x; }
 
-    public static String toString(ListNode head) {
+    @Override
+    public String toString() {
         StringBuilder sting = new StringBuilder();
-        while (head != null) {
-            sting.append(head.val);
-            if (head.next != null) {
+        ListNode node = this;
+        while (node != null) {
+            sting.append(node.val);
+            if (node.next != null) {
                 sting.append(" -> ");
             }
-            head = head.next;
+            node = node.next;
         }
         return sting.toString();
     }

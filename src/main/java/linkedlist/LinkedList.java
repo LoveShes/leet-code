@@ -13,6 +13,7 @@ public class LinkedList {
         ++size;
     }
 
+    // 直接添加节点
     public void add(ListNode node) {
         if (head == null) {
             head = node;
@@ -26,6 +27,11 @@ public class LinkedList {
         ++size;
     }
 
+    // 添加元素
+    public void add(Integer element) {
+        add(new ListNode(element));
+    }
+
     @Override
     public String toString() {
         StringBuilder string = new StringBuilder();
@@ -34,7 +40,7 @@ public class LinkedList {
             if (i == 0) {
                 string.append(node.val);
             } else {
-                string.append(" -> " + node.val);
+                string.append(" -> ").append(node.val);
             }
             node = node.next;
         }

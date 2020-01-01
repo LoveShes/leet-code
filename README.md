@@ -12,11 +12,11 @@
 
 1. [T141_环形链表](src/main/java/linkedlist/T141_环形链表.java)
 
-1. [T160_相交链表](src/main/java/linkedlist/T160_相交链表.java)
+1. 【重点】[T160_相交链表](src/main/java/linkedlist/T160_相交链表.java)
 
 1. [T203_移除链表元素](src/main/java/linkedlist/T203_移除链表元素.java)
 
-1. [T206_反转链表](src/main/java/linkedlist/T206_反转链表.java)
+1. 【重点】[T206_反转链表](src/main/java/linkedlist/T206_反转链表.java)
 
 1. [T234_回文链表](src/main/java/linkedlist/T234_回文链表.java)
 
@@ -29,6 +29,8 @@
 【中等难度】
 
 1. [T2_两数相加](src/main/java/linkedlist/T2_两数相加.java)
+
+1. 【重点】[T19_删除链表的倒数第N个节点](src/main/java/linkedlist/T19_删除链表的倒数第N个节点.java)
 
 ## 哈希表
 
