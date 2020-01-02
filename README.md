@@ -42,11 +42,13 @@
 
 1. [T20_有效的括号](src/main/java/stack/T20_有效的括号.java)
 
-1. ★[T856_括号的分数](src/main/java/stack/T856_括号的分数.java)
-
 1. [T150_逆波兰表达式求值](src/main/java/stack/T150_逆波兰表达式求值.java)
 
 1. [T232_用栈实现队列](src/main/java/stack/MyQueue.java)
+
+【中等难度】
+
+1. ★[T856_括号的分数](src/main/java/stack/T856_括号的分数.java)
 
 ## 哈希表
 
