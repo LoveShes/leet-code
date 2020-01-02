@@ -42,9 +42,18 @@
 
 1. [T20_有效的括号](src/main/java/stack/T20_有效的括号.java)
 
+1. ★[T856_括号的分数](src/main/java/stack/T856_括号的分数.java)
+
 ## 哈希表
 
 【简单难度】
 
 1. [T1_两数之和](src/main/java/hashtable/T1_两数之和.java)
 
+## 数学
+
+【简单难度】
+
+1. [T7_整数反转](src/main/java/math/T7_整数反转.java)
+
+1. [T9_回文数](src/main/java/math/T9_回文数.java)
