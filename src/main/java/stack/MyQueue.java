@@ -51,6 +51,8 @@ public class MyQueue {
         queue.push(2);
         queue.push(3);
         queue.push(4);
+        
+        System.out.println(12345);
 
         while (!queue.empty()) {
             System.out.println(queue.pop());
