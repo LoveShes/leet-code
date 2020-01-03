@@ -23,21 +23,21 @@ public class MyQueue {
     }
 
     public int pop() {
-        if (outStack.isEmpty()) {
-            while (!inStack.isEmpty()) {
-                outStack.push(inStack.pop());
-            }
-        }
+        checkOutStack();
         return outStack.pop();
     }
 
     public int peek() {
+        checkOutStack();
+        return outStack.peek();
+    }
+
+    private void checkOutStack() {
         if (outStack.isEmpty()) {
             while (!inStack.isEmpty()) {
                 outStack.push(inStack.pop());
             }
         }
-        return outStack.peek();
     }
 
     public boolean empty() {
