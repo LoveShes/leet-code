@@ -48,11 +48,15 @@
 
 1. [T225_用队列实现栈](src/main/java/stack/MyStack.java) | [方法2](src/main/java/stack/MyStack2.java) | [leetcode](https://leetcode-cn.com/problems/implement-stack-using-queues/)
 
-
-
 【中等难度】
 
 1. ★[T856_括号的分数](src/main/java/stack/T856_括号的分数.java) | [leetcode](https://leetcode-cn.com/problems/score-of-parentheses/)
+
+## 二叉树
+
+【简单难度】
+
+1. [T226_翻转二叉树](src/main/java/tree/T226_翻转二叉树.java) | [leetcode](https://leetcode-cn.com/problems/invert-binary-tree/)
 
 ## 哈希表
 
@@ -67,3 +71,5 @@
 1. [T7_整数反转](src/main/java/math/T7_整数反转.java) | [leetcode](https://leetcode-cn.com/problems/reverse-integer/)
 
 1. [T9_回文数](src/main/java/math/T9_回文数.java) | [leetcode](https://leetcode-cn.com/problems/palindrome-number/)
+
+1. ★[T223_矩形面积](src/main/java/math/T223_矩形面积.java) | [leetcode](https://leetcode-cn.com/problems/rectangle-area/)
