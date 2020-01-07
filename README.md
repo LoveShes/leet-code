@@ -46,6 +46,10 @@
 
 1. [T232_用栈实现队列](src/main/java/stack/MyQueue.java) | [leetcode](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
 
+1. [T225_用队列实现栈](src/main/java/stack/MyStack.java) | [方法2](src/main/java/stack/MyStack2.java) | [leetcode](https://leetcode-cn.com/problems/implement-stack-using-queues/)
+
+
+
 【中等难度】
 
 1. ★[T856_括号的分数](src/main/java/stack/T856_括号的分数.java) | [leetcode](https://leetcode-cn.com/problems/score-of-parentheses/)
