@@ -58,6 +58,26 @@
 
 1. [T226_翻转二叉树](src/main/java/tree/T226_翻转二叉树.java) | [leetcode](https://leetcode-cn.com/problems/invert-binary-tree/)
 
+1. ★[T144_二叉树的前序遍历](src/main/java/tree/T144_二叉树的前序遍历.java) | [leetcode](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+
+1. ★[T94_二叉树的中序遍历](src/main/java/tree/T94_二叉树的中序遍历.java) | [leetcode](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+
+1. ★[T145_二叉树的后序遍历](src/main/java/tree/T145_二叉树的后序遍历.java) | [leetcode](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
+
+1. ★[T102_二叉树的层次遍历](src/main/java/tree/T102_二叉树的层次遍历.java) | [leetcode](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+
+1. ★[T104_二叉树的最大深度](src/main/java/tree/T104_二叉树的最大深度.java) | [leetcode](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+
+1. ★[T107_二叉树的层次遍历II](src/main/java/tree/T107_二叉树的层次遍历II.java) | [leetcode](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
+
+1. ★[](src/main/java/tree/) | [leetcode]()
+
+1. ★[](src/main/java/tree/) | [leetcode]()
+
+1. ★[](src/main/java/tree/) | [leetcode]()
+
+1. ★[](src/main/java/tree/) | [leetcode]()
+
 ## 哈希表
 
 【简单难度】
