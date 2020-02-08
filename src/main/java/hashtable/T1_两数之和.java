@@ -1,5 +1,7 @@
 package hashtable;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -58,10 +60,11 @@ public class T1_两数之和 {
         return new int[]{start, end};
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void test() {
         int[] nums = new int[] {1, 3, 4, 7, 9, 13, 15, 17};
         int target = 19;
-        int[] result = new T1_两数之和().twoSum3(nums, target);
+        int[] result = twoSum3(nums, target);
         System.out.println(Arrays.toString(result));
     }
 }

@@ -44,14 +44,14 @@ public class T7_整数反转 {
         int s3 = 214748364;
         int s4 = 2147483646;
 
-        System.out.println(new T7_整数反转().reverse(s1));
-        System.out.println(new T7_整数反转().reverse2(s1));
-        System.out.println(new T7_整数反转().reverse(s2));
-        System.out.println(new T7_整数反转().reverse2(s2));
-        System.out.println(new T7_整数反转().reverse(s3));
-        System.out.println(new T7_整数反转().reverse2(s3));
-        System.out.println(new T7_整数反转().reverse(s4));
-        System.out.println(new T7_整数反转().reverse2(s4));
+        System.out.println(reverse(s1));
+        System.out.println(reverse2(s1));
+        System.out.println(reverse(s2));
+        System.out.println(reverse2(s2));
+        System.out.println(reverse(s3));
+        System.out.println(reverse2(s3));
+        System.out.println(reverse(s4));
+        System.out.println(reverse2(s4));
     }
 
 }

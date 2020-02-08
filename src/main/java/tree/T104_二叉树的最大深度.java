@@ -66,12 +66,12 @@ public class T104_二叉树的最大深度 {
         root.right.left.right.right = new TreeNode(2);
         Times.test("递归", () -> {
             for (int i = 0; i < num; i++) {
-                new T104_二叉树的最大深度().maxDepth(root);
+                maxDepth(root);
             }
         });
         Times.test("迭代", () -> {
             for (int i = 0; i < num; i++) {
-                new T104_二叉树的最大深度().maxDepth2(root);
+                maxDepth2(root);
             }
         });
     }

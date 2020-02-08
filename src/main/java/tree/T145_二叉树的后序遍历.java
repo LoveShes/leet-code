@@ -46,11 +46,39 @@ public class T145_二叉树的后序遍历 {
             while (!stack.isEmpty()) {
                 TreeNode node = stack.pop();
                 list.add(0, node.val);
-                if (node.left!= null) {
+                if (node.left != null) {
                     stack.push(node.left);
                 }
                 if (node.right != null) {
                     stack.push(node.right);
+                }
+            }
+        }
+        return list;
+    }
+
+    /**
+     * 迭代
+     */
+    public List<Integer> postorderTraversal3(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        if (root != null) {
+            stack.push(root);
+            TreeNode prev = null;
+            while (!stack.isEmpty()) {
+                TreeNode top = stack.peek();
+                if (top.left == null && top.right == null
+                        || prev != null && (top.left == prev || top.right == prev)) {
+                    prev = stack.pop();
+                    list.add(prev.val);
+                } else {
+                    if (top.right != null) {
+                        stack.push(top.right);
+                    }
+                    if (top.left != null) {
+                        stack.push(top.left);
+                    }
                 }
             }
         }
@@ -72,6 +100,15 @@ public class T145_二叉树的后序遍历 {
         root.left = new TreeNode(1);
         root.right = new TreeNode(2);
         List<Integer> list = postorderTraversal2(root);
+        list.forEach((x) -> System.out.println(x));
+    }
+
+    @Test
+    public void test03() {
+        TreeNode root = new TreeNode(3);
+        root.left = new TreeNode(1);
+        root.right = new TreeNode(2);
+        List<Integer> list = postorderTraversal3(root);
         list.forEach((x) -> System.out.println(x));
     }
 }

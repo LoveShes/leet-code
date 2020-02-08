@@ -54,57 +54,58 @@ public class T150_逆波兰表达式求值 {
      *  【耗时】 2ms（击败100.00%）
      *  【内存】 36.8MB（90.06%）
      */
-public int evalRPN2(String[] tokens) {
-    int length = tokens.length;
-    int[] stack = new int[length];
-    int top = -1;
-    for (String token : tokens) {
-        switch (token) {
-            case "+": stack[top-1] += stack[top]; --top; break;
-            case "-": stack[top-1] -= stack[top]; --top; break;
-            case "*": stack[top-1] *= stack[top]; --top; break;
-            case "/": stack[top-1] /= stack[top]; --top; break;
-            default:  stack[++top] = calc(token);
+    public int evalRPN2(String[] tokens) {
+        int length = tokens.length;
+        int[] stack = new int[length];
+        int top = -1;
+        for (String token : tokens) {
+            switch (token) {
+                case "+": stack[top-1] += stack[top]; --top; break;
+                case "-": stack[top-1] -= stack[top]; --top; break;
+                case "*": stack[top-1] *= stack[top]; --top; break;
+                case "/": stack[top-1] /= stack[top]; --top; break;
+                default:  stack[++top] = calc(token);
+            }
         }
+        return stack[top];
     }
-    return stack[top];
-}
-private int calc(String s) {
-    char[] chars = s.toCharArray();
-    int result = 0;
-    int pos = 1;
-    for (char c : chars) {
-        if (c == '-') {
-            pos = -1;
-        } else {
-            result = 10 * result + (c - '0');
+
+    private int calc(String s) {
+        char[] chars = s.toCharArray();
+        int result = 0;
+        int pos = 1;
+        for (char c : chars) {
+            if (c == '-') {
+                pos = -1;
+            } else {
+                result = 10 * result + (c - '0');
+            }
         }
+        return pos * result;
     }
-    return pos * result;
-}
 
     @Test
     public void test01() {
         String[] s1 = {"2", "1", "+", "3", "*"}; // 9
-        System.out.println(new T150_逆波兰表达式求值().evalRPN(s1));
+        System.out.println(evalRPN(s1));
 
         String[] s2 = {"4", "13", "5", "/", "+"}; // 6
-        System.out.println(new T150_逆波兰表达式求值().evalRPN(s2));
+        System.out.println(evalRPN(s2));
 
         String[] s3 = {"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}; // 22
-        System.out.println(new T150_逆波兰表达式求值().evalRPN(s3));
+        System.out.println(evalRPN(s3));
     }
 
     @Test
     public void test02() {
         String[] s1 = {"2", "1", "+", "3", "*"}; // 9
-        System.out.println(new T150_逆波兰表达式求值().evalRPN2(s1));
+        System.out.println(evalRPN2(s1));
 
         String[] s2 = {"4", "13", "5", "/", "+"}; // 6
-        System.out.println(new T150_逆波兰表达式求值().evalRPN2(s2));
+        System.out.println(evalRPN2(s2));
 
         String[] s3 = {"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}; // 22
-        System.out.println(new T150_逆波兰表达式求值().evalRPN2(s3));
+        System.out.println(evalRPN2(s3));
 
         System.out.println(calc("-123"));
     }

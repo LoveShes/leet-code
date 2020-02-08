@@ -90,7 +90,7 @@ public class T19_删除链表的倒数第N个节点 {
         list.add(2);
         list.add(3);
         list.add(4);
-        ListNode result = new T19_删除链表的倒数第N个节点().removeNthFromEnd(head, 1);
+        ListNode result = removeNthFromEnd(head, 1);
         System.out.println(result);
     }
 
@@ -103,7 +103,7 @@ public class T19_删除链表的倒数第N个节点 {
         list.add(3);
         list.add(2);
         list.add(1);
-        ListNode result = new T19_删除链表的倒数第N个节点().removeNthFromEnd2(head, 4);
+        ListNode result = removeNthFromEnd2(head, 4);
         System.out.println(result);
     }
 

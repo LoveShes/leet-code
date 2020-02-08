@@ -1,5 +1,7 @@
 package math;
 
+import org.junit.jupiter.api.Test;
+
 /**
  * https://leetcode-cn.com/problems/rectangle-area/
  */
@@ -19,9 +21,10 @@ public class T223_矩形面积 {
         return totalArea-(top-bottom)*(right-left);
     }
 
-    public static void main(String[] args) {
-        System.out.println(new T223_矩形面积().computeArea( -3, 0, 3, 4, 0, -1, 9, 2)); // 45
-        System.out.println(new T223_矩形面积().computeArea( 0, 0, 0, 0, -1, -1, 1, 1)); // 4
+    @Test
+    public void test() {
+        System.out.println(computeArea( -3, 0, 3, 4, 0, -1, 9, 2)); // 45
+        System.out.println(computeArea( 0, 0, 0, 0, -1, -1, 1, 1)); // 4
     }
 
 }

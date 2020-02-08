@@ -1,5 +1,7 @@
 package linkedlist;
 
+import org.junit.jupiter.api.Test;
+
 /**
  * https://leetcode-cn.com/problems/palindrome-linked-list/
  */
@@ -60,7 +62,8 @@ public class T234_回文链表 {
         return true;
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void test() {
         ListNode head = new ListNode(1);
         LinkedList list = new LinkedList(head);
         list.add(new ListNode(2));
@@ -70,7 +73,7 @@ public class T234_回文链表 {
         list.add(new ListNode(1));
         System.out.println(list.toString());
 
-        boolean flag = new T234_回文链表().isPalindrome(head);
+        boolean flag = isPalindrome(head);
         System.out.println(flag);
     }
 }

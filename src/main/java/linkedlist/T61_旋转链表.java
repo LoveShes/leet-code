@@ -72,7 +72,7 @@ public class T61_旋转链表 {
         // list.add(4);
         // list.add(5);
 
-        ListNode result = new T61_旋转链表().rotateRight(list.getHead(), 4);
+        ListNode result = rotateRight(list.getHead(), 4);
         System.out.println(result);
     }
 
@@ -85,7 +85,7 @@ public class T61_旋转链表 {
         // list.add(4);
         // list.add(5);
 
-        ListNode result = new T61_旋转链表().rotateRight2(list.getHead(), 2);
+        ListNode result = rotateRight2(list.getHead(), 2);
         System.out.println(result);
     }
 }

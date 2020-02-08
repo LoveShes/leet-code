@@ -1,5 +1,7 @@
 package tree;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -42,7 +44,8 @@ public class T226_翻转二叉树 {
         return root;
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void test() {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
         root.left.left = new TreeNode(3);
@@ -52,7 +55,7 @@ public class T226_翻转二叉树 {
         root.right.right = new TreeNode(7);
         System.out.println(root);
 
-        System.out.println(new T226_翻转二叉树().invertTree(root));
-        System.out.println(new T226_翻转二叉树().invertTree2(root));
+        System.out.println(invertTree(root));
+        System.out.println(invertTree2(root));
     }
 }

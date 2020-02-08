@@ -36,16 +36,16 @@ public class T856_括号的分数 {
 
     @Test
     public void test01() {
-        System.out.println(new T856_括号的分数().scoreOfParentheses("()()"));            // 2
-        System.out.println(new T856_括号的分数().scoreOfParentheses("(()())"));          // 4
-        System.out.println(new T856_括号的分数().scoreOfParentheses("((()))()"));        // 6
-        System.out.println(new T856_括号的分数().scoreOfParentheses("((())())(())"));    // 8
-        System.out.println(new T856_括号的分数().scoreOfParentheses("()()((())(()))"));  // 10
+        System.out.println(scoreOfParentheses("()()"));            // 2
+        System.out.println(scoreOfParentheses("(()())"));          // 4
+        System.out.println(scoreOfParentheses("((()))()"));        // 6
+        System.out.println(scoreOfParentheses("((())())(())"));    // 8
+        System.out.println(scoreOfParentheses("()()((())(()))"));  // 10
     }
 
     @Test
     public void test02() {
         String s = "()()((())(()))"; // 10
-        System.out.println(new T856_括号的分数().scoreOfParentheses2(s));
+        System.out.println(scoreOfParentheses2(s));
     }
 }

@@ -57,20 +57,20 @@ public class T9_回文数 {
         int x3 = 10;
         int x4 = -121;
 
-        // System.out.println(new T9_回文数().isPalindrome(x1)); // true
-        // System.out.println(new T9_回文数().isPalindrome(x2)); // false
-        // System.out.println(new T9_回文数().isPalindrome(x3)); // false
-        // System.out.println(new T9_回文数().isPalindrome(x4)); // false
+        // System.out.println(isPalindrome(x1)); // true
+        // System.out.println(isPalindrome(x2)); // false
+        // System.out.println(isPalindrome(x3)); // false
+        // System.out.println(isPalindrome(x4)); // false
         //
-        // System.out.println(new T9_回文数().isPalindrome2(x1)); // true
-        // System.out.println(new T9_回文数().isPalindrome2(x2)); // false
-        // System.out.println(new T9_回文数().isPalindrome2(x3)); // false
-        // System.out.println(new T9_回文数().isPalindrome2(x4)); // false
+        // System.out.println(isPalindrome2(x1)); // true
+        // System.out.println(isPalindrome2(x2)); // false
+        // System.out.println(isPalindrome2(x3)); // false
+        // System.out.println(isPalindrome2(x4)); // false
 
-        System.out.println(new T9_回文数().isPalindrome3(x1)); // true
-        System.out.println(new T9_回文数().isPalindrome3(x2)); // false
-        System.out.println(new T9_回文数().isPalindrome3(x3)); // false
-        System.out.println(new T9_回文数().isPalindrome3(x4)); // false
+        System.out.println(isPalindrome3(x1)); // true
+        System.out.println(isPalindrome3(x2)); // false
+        System.out.println(isPalindrome3(x3)); // false
+        System.out.println(isPalindrome3(x4)); // false
     }
 
     @Test
@@ -79,11 +79,11 @@ public class T9_回文数 {
         int n = 100000000;
         Times.test("反转整体", ()->{
             for (int i = 0; i < n; i++) {
-                new T9_回文数().isPalindrome2(x);
+                isPalindrome2(x);
             }});
         Times.test("反转一半", ()->{
             for (int i = 0; i < n; i++) {
-                new T9_回文数().isPalindrome3(x);
+                isPalindrome3(x);
             }});
     }
 

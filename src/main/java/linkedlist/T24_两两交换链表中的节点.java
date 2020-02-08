@@ -23,7 +23,7 @@ public class T24_两两交换链表中的节点 {
     }
 
     @Test
-    public void test01() {
+    public void test() {
         LinkedList list = new LinkedList();
         list.add(1);
         list.add(2);
@@ -31,7 +31,7 @@ public class T24_两两交换链表中的节点 {
         list.add(4);
         list.add(5);
 
-        ListNode result = new T24_两两交换链表中的节点().swapPairs(list.getHead());
+        ListNode result = swapPairs(list.getHead());
         System.out.println(result);
     }
 }
