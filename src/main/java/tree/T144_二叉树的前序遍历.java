@@ -14,10 +14,9 @@ public class T144_二叉树的前序遍历 {
     // 递归
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        if (root != null) {
-            return preorderTraversal(root, list);
-        }
-        return list;
+        if (root == null) return list;
+
+        return preorderTraversal(root, list);
     }
 
     private List<Integer> preorderTraversal(TreeNode node, List<Integer> list) {
