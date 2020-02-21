@@ -32,18 +32,13 @@
 
 ## 二叉树
 
-| 【简单难度】                                                 | 【中等难度】 | 【困难难度】 |
-| ------------------------------------------------------------ | ------------ | ------------ |
-| [T226_翻转二叉树](src/main/java/tree/T226_翻转二叉树.java) [➥](https://leetcode-cn.com/problems/invert-binary-tree/) |              |              |
-| ★[T144_二叉树的前序遍历](src/main/java/tree/T144_二叉树的前序遍历.java) [➥](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) |              |              |
-| ★[T94_二叉树的中序遍历](src/main/java/tree/T94_二叉树的中序遍历.java) [➥](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) |              |              |
-| ★[T145_二叉树的后序遍历](src/main/java/tree/T145_二叉树的后序遍历.java) [➥](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) |              |              |
-| ★[T102_二叉树的层次遍历](src/main/java/tree/T102_二叉树的层次遍历.java) [➥](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) |              |              |
-| ★[T104_二叉树的最大深度](src/main/java/tree/T104_二叉树的最大深度.java) [➥](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) |              |              |
-| ★[T107_二叉树的层次遍历II](src/main/java/tree/T107_二叉树的层次遍历II.java) [➥](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) |              |              |
-| ★[T662_二叉树最大宽度](src/main/java/tree/T662_二叉树最大宽度.java) [➥](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/) |              |              |
-| ★[T110_平衡二叉树](src/main/java/tree/T110_平衡二叉树.java) [➥](https://leetcode-cn.com/problems/balanced-binary-tree/) |              |              |
-| ★[T590_N叉树的后序遍历](src/main/java/tree/T590_N叉树的后序遍历.java) [➥](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) |              |              |
+| 【简单难度】                                                 | 【中等难度】                                                 | 【困难难度】                                                 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [T226_翻转二叉树](src/main/java/tree/T226_翻转二叉树.java) [➥](https://leetcode-cn.com/problems/invert-binary-tree/) | ★[T144_二叉树的前序遍历](src/main/java/tree/T144_二叉树的前序遍历.java) [➥](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | ★[T145_二叉树的后序遍历](src/main/java/tree/T145_二叉树的后序遍历.java) [➥](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) |
+| ★[T104_二叉树的最大深度](src/main/java/tree/T104_二叉树的最大深度.java) [➥](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | ★[T94_二叉树的中序遍历](src/main/java/tree/T94_二叉树的中序遍历.java) [➥](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) |                                                              |
+| ★[T107_二叉树的层次遍历II](src/main/java/tree/T107_二叉树的层次遍历II.java) [➥](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | ★[T102_二叉树的层次遍历](src/main/java/tree/T102_二叉树的层次遍历.java) [➥](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) |                                                              |
+| ★[T110_平衡二叉树](src/main/java/tree/T110_平衡二叉树.java) [➥](https://leetcode-cn.com/problems/balanced-binary-tree/) | ★[T662_二叉树最大宽度](src/main/java/tree/T662_二叉树最大宽度.java) [➥](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/) |                                                              |
+| ★[T590_N叉树的后序遍历](src/main/java/tree/T590_N叉树的后序遍历.java) [➥](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) |                                                              |                                                              |
 
 
 
@@ -72,15 +67,26 @@
 | 【简单难度】                                                 | 【中等难度】 | 【困难难度】 |
 | ------------------------------------------------------------ | ------------ | ------------ |
 | ★[T88_合并两个有序数组](src/main/java/sort/T88_合并两个有序数组.java) [➥](https://leetcode-cn.com/problems/merge-sorted-array/) |              |              |
-| ★[T53_最大子序和](src/main/java/array/T53_最大子序和.java) [➥](https://leetcode-cn.com/problems/maximum-subarray/) |              |              |
-| [T605_种花问题](src/main/java/array/T605_种花问题.java) [➥](https://leetcode-cn.com/problems/can-place-flowers/) |              |              |
 | [T27_移除元素](src/main/java/array/T27_移除元素.java) [➥](https://leetcode-cn.com/problems/remove-element/) |              |              |
+| [T605_种花问题](src/main/java/array/T605_种花问题.java) [➥](https://leetcode-cn.com/problems/can-place-flowers/) |              |              |
 
 
 
-# 算法
+## 算法
 
-| 【简单难度】                                                 | 【中等难度】 | 【困难难度】 |
-| ------------------------------------------------------------ | ------------ | ------------ |
-| [T455_分发饼干](src/main/java/alogorithm/T455_分发饼干.java) [➥](https://leetcode-cn.com/problems/assign-cookies/) |              |              |
+| 【简单难度】                                                 | 【中等难度】                                                 | 【困难难度】 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
+| [T455_分发饼干](src/main/java/alogorithm/T455_分发饼干.java) [➥](https://leetcode-cn.com/problems/assign-cookies/) | ★[T322_零钱兑换](src/main/java/alogorithm/T322_零钱兑换.java) [➥](https://leetcode-cn.com/problems/coin-change/) |              |
+| ★[T53_最大子序和](src/main/java/array/T53_最大子序和.java) [➥](https://leetcode-cn.com/problems/maximum-subarray/) | ★[T300_最长上升子序列](src/main/java/alogorithm/T300_最长上升子序列.java) [➥](https://leetcode-cn.com/problems/longest-increasing-subsequence/) |              |
+|                                                              | ★[T1143_最长公共子序列](src/main/java/alogorithm/T1143_最长公共子序列.java) [➥](https://leetcode-cn.com/problems/longest-common-subsequence/) |              |
+
+
+
+## 剑指Offer
+
+| 题目                                                         | 知识点             | 注意点                       |
+| ------------------------------------------------------------ | ------------------ | ---------------------------- |
+| [T02_实现Singleton模式](src/main/java/offer/T03_数组中重复的数字.java) | 单例模式，线程安全 | 一般采用饿汉式或者内部静态类 |
+| [T03_数组中重复的数字](src/main/java/offer/T03_数组中重复的数字.java) [➥](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/comments/) | 哈希表，计数排序   | 交换元素的骚操作             |
+|                                                              |                    |                              |
 
