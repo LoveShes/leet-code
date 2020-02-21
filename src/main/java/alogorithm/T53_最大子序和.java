@@ -3,6 +3,7 @@ package array;
 import org.junit.jupiter.api.Test;
 
 /**
+ * 动态规划
  * https://leetcode-cn.com/problems/maximum-subarray/
  */
 public class T53_最大子序和 {
@@ -67,14 +68,32 @@ public class T53_最大子序和 {
         return Math.max(max, Math.max(maxSubArray(nums, begin, mid), maxSubArray(nums, mid, end)));
     }
 
-    // 参考解法
+    // 动态规划（优化dp数组）
+    //【时间复杂度】O(n)     【空间复杂度】O(1)
     public int maxSubArray4(int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+        int dp = nums[0];
+        int max = dp;
+        for (int i = 1; i < nums.length; i++) {
+            if (dp <= 0) {
+                dp = nums[i];
+            } else {
+                dp = dp + nums[i];
+            }
+            max = Math.max(dp, max);
+        }
+        return max;
+    }
+
+    // 参考解法
+    public int maxSubArray5(int[] nums) {
         int Maxsum = nums[0], sum = 0;
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
             if (sum > Maxsum) Maxsum = sum;
             // 前面计算的结果如果小于0，后面无论再加一个怎样的数字，最后的和都会变的更小。所以就是sum<0就无增益效果，所以需要把前面这一段舍弃掉。从下一个数字重新开始。
-            if (sum < 0) sum = 0;         }
+            if (sum < 0) sum = 0;
+        }
         return Maxsum;
     }
 
