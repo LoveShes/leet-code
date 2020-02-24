@@ -1,16 +1,18 @@
 package offer;
 
+import java.util.Arrays;
+
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
 
 /**
  * https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/
  */
 public class T05_替换空格 {
     /**
-     * 【字符串拼接】 执行用时 :0 ms, 在所有 Java 提交中击败了100.00% 的用户 内存消耗 :37.6 MB, 在所有 Java
-     * 提交中击败了100.00%的用户
+     * 【字符串拼接】
+     * 执行用时 :0 ms, 在所有 Java 提交中击败了100.00% 的用户
+     * 内存消耗 :37.6 MB, 在所有 Java 提交中击败了100.00%的用户
      */
     public String replaceSpace(String s) {
         if (s == null)

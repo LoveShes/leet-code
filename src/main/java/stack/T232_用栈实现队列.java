@@ -5,10 +5,24 @@ import org.junit.jupiter.api.Test;
 import java.util.Stack;
 
 /**
- * T232_用栈实现队列
  * https://leetcode-cn.com/problems/implement-queue-using-stacks/
  */
-public class MyQueue {
+public class T232_用栈实现队列 {
+    @Test
+    public void test() {
+        MyQueue queue = new MyQueue();
+        queue.push(1);
+        queue.push(2);
+        queue.push(3);
+        queue.push(4);
+
+        while (!queue.empty()) {
+            System.out.println(queue.pop());
+        }
+    }
+}
+
+class MyQueue {
 
     private Stack<Integer> inStack;
     private Stack<Integer> outStack;
@@ -42,18 +56,5 @@ public class MyQueue {
 
     public boolean empty() {
         return inStack.isEmpty() && outStack.isEmpty();
-    }
-
-    @Test
-    public void test() {
-        MyQueue queue = new MyQueue();
-        queue.push(1);
-        queue.push(2);
-        queue.push(3);
-        queue.push(4);
-
-        while (!queue.empty()) {
-            System.out.println(queue.pop());
-        }
     }
 }

@@ -25,8 +25,8 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
 | [T20_有效的括号](src/main/java/stack/T20_有效的括号.java) [➥](https://leetcode-cn.com/problems/valid-parentheses/) | ★[T856_括号的分数](src/main/java/stack/T856_括号的分数.java) [➥](https://leetcode-cn.com/problems/score-of-parentheses/) |              |
 | [T150_逆波兰表达式求值](src/main/java/stack/T150_逆波兰表达式求值.java) [➥](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) |                                                              |              |
-| [T232_用栈实现队列](src/main/java/stack/MyQueue.java) [➥](https://leetcode-cn.com/problems/implement-queue-using-stacks/) |                                                              |              |
-| [T225_用队列实现栈](src/main/java/stack/MyStack.java) \| [方法2](src/main/java/stack/MyStack2.java) [➥](https://leetcode-cn.com/problems/implement-stack-using-queues/) |                                                              |              |
+| [T232_用栈实现队列](src/main/java/stack/T232_用栈实现队列.java) [➥](https://leetcode-cn.com/problems/implement-queue-using-stacks/) |                                                              |              |
+| [T225_用队列实现栈](src/main/java/stack/T225_用队列实现栈.java) [➥](https://leetcode-cn.com/problems/implement-stack-using-queues/) |                                                              |              |
 
 
 
@@ -38,7 +38,8 @@
 | ★[T104_二叉树的最大深度](src/main/java/tree/T104_二叉树的最大深度.java) [➥](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | ★[T94_二叉树的中序遍历](src/main/java/tree/T94_二叉树的中序遍历.java) [➥](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) |                                                              |
 | ★[T107_二叉树的层次遍历II](src/main/java/tree/T107_二叉树的层次遍历II.java) [➥](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | ★[T102_二叉树的层次遍历](src/main/java/tree/T102_二叉树的层次遍历.java) [➥](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) |                                                              |
 | ★[T110_平衡二叉树](src/main/java/tree/T110_平衡二叉树.java) [➥](https://leetcode-cn.com/problems/balanced-binary-tree/) | ★[T662_二叉树最大宽度](src/main/java/tree/T662_二叉树最大宽度.java) [➥](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/) |                                                              |
-| ★[T590_N叉树的后序遍历](src/main/java/tree/T590_N叉树的后序遍历.java) [➥](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) |                                                              |                                                              |
+| ★[T590_N叉树的后序遍历](src/main/java/tree/T590_N叉树的后序遍历.java) [➥](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) | [T105_从前序与中序遍历序列构造二叉树](src/main/java/tree/T105_从前序与中序遍历序列构造二叉树.java) [➥](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |                                                              |
+|                                                              |                                                              |                                                              |
 
 
 
@@ -64,29 +65,44 @@
 
 ## 数组
 
-| 【简单难度】                                                 | 【中等难度】 | 【困难难度】 |
-| ------------------------------------------------------------ | ------------ | ------------ |
-| ★[T88_合并两个有序数组](src/main/java/sort/T88_合并两个有序数组.java) [➥](https://leetcode-cn.com/problems/merge-sorted-array/) |              |              |
-| [T27_移除元素](src/main/java/array/T27_移除元素.java) [➥](https://leetcode-cn.com/problems/remove-element/) |              |              |
-| [T605_种花问题](src/main/java/array/T605_种花问题.java) [➥](https://leetcode-cn.com/problems/can-place-flowers/) |              |              |
+| 【简单难度】                                                 | 【中等难度】                                                 | 【困难难度】 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
+| ★[T88_合并两个有序数组](src/main/java/array/T88_合并两个有序数组.java) [➥](https://leetcode-cn.com/problems/merge-sorted-array/) | [T240_搜索二维矩阵II](src/main/java/array/T240_搜索二维矩阵II.java) [➥](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) |              |
+| [T27_移除元素](src/main/java/array/T27_移除元素.java) [➥](https://leetcode-cn.com/problems/remove-element/) |                                                              |              |
+| [T605_种花问题](src/main/java/array/T605_种花问题.java) [➥](https://leetcode-cn.com/problems/can-place-flowers/) |                                                              |              |
+| [T509_斐波那契数](src/main/java/array/T509_斐波那契数.java) [➥](https://leetcode-cn.com/problems/fibonacci-number/) |                                                              |              |
 
 
 
 ## 算法
 
-| 【简单难度】                                                 | 【中等难度】                                                 | 【困难难度】 |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
-| [T455_分发饼干](src/main/java/alogorithm/T455_分发饼干.java) [➥](https://leetcode-cn.com/problems/assign-cookies/) | ★[T322_零钱兑换](src/main/java/alogorithm/T322_零钱兑换.java) [➥](https://leetcode-cn.com/problems/coin-change/) |              |
-| ★[T53_最大子序和](src/main/java/array/T53_最大子序和.java) [➥](https://leetcode-cn.com/problems/maximum-subarray/) | ★[T300_最长上升子序列](src/main/java/alogorithm/T300_最长上升子序列.java) [➥](https://leetcode-cn.com/problems/longest-increasing-subsequence/) |              |
-|                                                              | ★[T1143_最长公共子序列](src/main/java/alogorithm/T1143_最长公共子序列.java) [➥](https://leetcode-cn.com/problems/longest-common-subsequence/) |              |
+| 【简单难度】                                                 | 【中等难度】                                                 | 【困难难度】                                                 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [T455_分发饼干](src/main/java/alogorithm/T455_分发饼干.java) [➥](https://leetcode-cn.com/problems/assign-cookies/) | ★[T322_零钱兑换](src/main/java/alogorithm/T322_零钱兑换.java) [➥](https://leetcode-cn.com/problems/coin-change/) | [T154_寻找旋转排序数组中的最小值II](src/main/java/alogorithm/T154_寻找旋转排序数组中的最小值II.java) [➥](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) |
+| ★[T53_最大子序和](src/main/java/array/T53_最大子序和.java) [➥](https://leetcode-cn.com/problems/maximum-subarray/) | ★[T300_最长上升子序列](src/main/java/alogorithm/T300_最长上升子序列.java) [➥](https://leetcode-cn.com/problems/longest-increasing-subsequence/) |                                                              |
+|                                                              | ★[T1143_最长公共子序列](src/main/java/alogorithm/T1143_最长公共子序列.java) [➥](https://leetcode-cn.com/problems/longest-common-subsequence/) |                                                              |
+|                                                              | [T153_寻找旋转排序数组中的最小值](src/main/java/alogorithm/T153_寻找旋转排序数组中的最小值.java) [➥](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/description/) |                                                              |
+|                                                              | [T79_单词搜索](src/main/java/alogorithm/T79_单词搜索.java) [➥](https://leetcode-cn.com/problems/word-search/) |                                                              |
 
 
 
 ## 剑指Offer
 
-| 题目                                                         | 知识点             | 注意点                       |
-| ------------------------------------------------------------ | ------------------ | ---------------------------- |
-| [T02_实现Singleton模式](src/main/java/offer/T03_数组中重复的数字.java) | 单例模式，线程安全 | 一般采用饿汉式或者内部静态类 |
-| [T03_数组中重复的数字](src/main/java/offer/T03_数组中重复的数字.java) [➥](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/comments/) | 哈希表，计数排序   | 交换元素的骚操作             |
-|                                                              |                    |                              |
+| 题目                                                         | 知识点                     | 注意点                                        |
+| ------------------------------------------------------------ | -------------------------- | --------------------------------------------- |
+| [T02_实现Singleton模式](src/main/java/offer/T03_数组中重复的数字.java) | 单例模式，线程安全         | 一般采用饿汉式或者内部静态类                  |
+| [T03_数组中重复的数字](src/main/java/offer/T03_数组中重复的数字.java) [➥](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/comments/) | 哈希表，计数排序           | 交换元素的骚操作                              |
+| [T04_二维数组中的查找](src/main/java/offer/T04_二维数组中的查找.java) [➥](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/) | 二叉搜索树                 | 可等效为二叉搜索树，注意下标的范围            |
+| [T05_替换空格](src/main/java/offer/T05_替换空格.java) [➥](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | 从后往前遍历可减少移动次数 | 注意Java的字符串是final的，故参考解法意义不大 |
+| [T06_从尾到头打印链表](src/main/java/offer/.java) [➥](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | 栈，递归                   | 由于要求返回数组，故此题对Java意义不大        |
+| ★[T07_重建二叉树](src/main/java/offer/T07_重建二叉树.java) [➥](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) | 分治，递归                 | 递归时的索引，对象作为参数的引用问题          |
+| [T09_用两个栈实现队列](src/main/java/offer/T09_用两个栈实现队列.java) [➥](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) | 栈、先进先出               |                                               |
+| [T10I_斐波那契数列](src/main/java/offer/T10I_斐波那契数列.java) [➥](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) |                            | 求余                                          |
+| [T10II_青蛙跳台阶问题](src/main/java/offer/T10II_青蛙跳台阶问题.java) [➥](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) | 同斐波那契                 |                                               |
+| [T11_旋转数组的最小数字](src/main/java/offer/T11_旋转数组的最小数字.java) [➥](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) | 二分                       |                                               |
+| [T12_矩阵中的路径](src/main/java/offer/T12_矩阵中的路径.java) [➥](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) |                            |                                               |
+|                                                              |                            |                                               |
+|                                                              |                            |                                               |
+|                                                              |                            |                                               |
+|                                                              |                            |                                               |
 
