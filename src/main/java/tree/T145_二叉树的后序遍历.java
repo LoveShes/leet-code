@@ -91,7 +91,7 @@ public class T145_二叉树的后序遍历 {
         root.right = new TreeNode(2);
         root.right.left = new TreeNode(3);
         List<Integer> list = postorderTraversal(root);
-        list.forEach((x) -> System.out.println(x));
+        list.forEach(System.out::println);
     }
 
     @Test
@@ -100,7 +100,7 @@ public class T145_二叉树的后序遍历 {
         root.left = new TreeNode(1);
         root.right = new TreeNode(2);
         List<Integer> list = postorderTraversal2(root);
-        list.forEach((x) -> System.out.println(x));
+        list.forEach(System.out::println);
     }
 
     @Test
@@ -109,6 +109,6 @@ public class T145_二叉树的后序遍历 {
         root.left = new TreeNode(1);
         root.right = new TreeNode(2);
         List<Integer> list = postorderTraversal3(root);
-        list.forEach((x) -> System.out.println(x));
+        list.forEach(System.out::println);
     }
 }

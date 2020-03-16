@@ -20,7 +20,7 @@ public class T590_N叉树的后序遍历 {
         return list;
     }
 
-    public void postorder(Node node, List<Integer> list) {
+    private void postorder(Node node, List<Integer> list) {
         if (node == null || node.children == null) {
             return;
         }
@@ -31,8 +31,8 @@ public class T590_N叉树的后序遍历 {
         list.add(node.val);
     }
 
-    // TODO 本地测试通过，leetcode上超时
-    public List<Integer> postorder3(Node root) {
+    // TODO 超时
+    public List<Integer> postorder2(Node root) {
         List<Integer> list = new ArrayList<>();
         Stack<Node> stack = new Stack<>();
         if (root != null) {
@@ -95,7 +95,10 @@ public class T590_N叉树的后序遍历 {
         node1c.children = list1c;
 
         List<Integer> list = postorder(root);
-        list.forEach((x) -> System.out.println(x));
+        System.out.println(list);
+
+        List<Integer> list2 = postorder2(root);
+        System.out.println(list2);
     }
 
     // 测试for循环与while循环性能

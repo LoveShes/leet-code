@@ -1,5 +1,6 @@
 package offer;
 
+import offer.linkedlist.ListNode;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
