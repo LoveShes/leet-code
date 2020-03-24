@@ -63,15 +63,15 @@ public class T1103_分糖果II {
 
     @Test
     public void test() {
-        // System.out.println(Arrays.toString(distributeCandies(1, 2))); // [1,0]
-        // System.out.println(Arrays.toString(distributeCandies2(1, 2))); // [1,0]
-        // System.out.println(Arrays.toString(distributeCandies(2, 1))); // [2]
-        // System.out.println(Arrays.toString(distributeCandies2(2, 1))); // [2]
-        // System.out.println(Arrays.toString(distributeCandies(7, 4))); // [1,2,3,1]
-        // System.out.println(Arrays.toString(distributeCandies2(7, 4))); // [1,2,3,1]
-        // System.out.println(Arrays.toString(distributeCandies(10, 3))); // [5,2,3]
-        // System.out.println(Arrays.toString(distributeCandies2(10, 3))); // [5,2,3]
-        // System.out.println(Arrays.toString(distributeCandies(1000000000, 1000))); //
+        System.out.println(Arrays.toString(distributeCandies(1, 2))); // [1,0]
+        System.out.println(Arrays.toString(distributeCandies2(1, 2))); // [1,0]
+        System.out.println(Arrays.toString(distributeCandies(2, 1))); // [2]
+        System.out.println(Arrays.toString(distributeCandies2(2, 1))); // [2]
+        System.out.println(Arrays.toString(distributeCandies(7, 4))); // [1,2,3,1]
+        System.out.println(Arrays.toString(distributeCandies2(7, 4))); // [1,2,3,1]
+        System.out.println(Arrays.toString(distributeCandies(10, 3))); // [5,2,3]
+        System.out.println(Arrays.toString(distributeCandies2(10, 3))); // [5,2,3]
+        System.out.println(Arrays.toString(distributeCandies(1000000000, 1000))); //
         System.out.println(Arrays.toString(distributeCandies2(1000000000, 1000))); //
     }
 }

@@ -72,7 +72,7 @@ public class T57II_和为s的连续正数序列 {
             }
         }
         // toArray(T[] t)方法返回一个类T的数组，这个数组包含了类T中的所有元素。
-        return lists.toArray(new int[lists.size()][]);
+        return lists.toArray(new int[0][]);
     }
 
     /**
@@ -101,7 +101,7 @@ public class T57II_和为s的连续正数序列 {
             sum += big;
         }
         // toArray(T[] t)方法返回一个类T的数组，这个数组包含了类T中的所有元素。
-        return lists.toArray(new int[lists.size()][]);
+        return lists.toArray(new int[0][]);
     }
 
     /**
@@ -130,7 +130,7 @@ public class T57II_和为s的连续正数序列 {
             i++;
         }
         // toArray(T[] t)方法返回一个类T的数组，这个数组包含了类T中的所有元素。
-        return lists.toArray(new int[lists.size()][]);
+        return lists.toArray(new int[0][]);
     }
 
     private int[] getList(int start, int end) {

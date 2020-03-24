@@ -60,6 +60,8 @@
 | 【简单难度】                                                 | 【中等难度】 | 【困难难度】 |
 | ------------------------------------------------------------ | ------------ | ------------ |
 | [T1_两数之和](src/main/java/hashtable/T1_两数之和.java) [➥](https://leetcode-cn.com/problems/two-sum/) |              |              |
+| [T1160_拼写单词](src/main/java/hashtable/T1160_拼写单词.java) [➥](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/) |              |              |
+| [T409_最长回文串](src/main/java/hashtable/T409_最长回文串.java) [➥](https://leetcode-cn.com/problems/longest-palindrome/) |              |              |
 
 
 
@@ -69,12 +71,13 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [T7_整数反转](src/main/java/math/T7_整数反转.java) [➥](https://leetcode-cn.com/problems/reverse-integer/) | [T50_Pow_x_n](src/main/java/math/T50_Pow_x_n.java) [➥](https://leetcode-cn.com/problems/powx-n/) | ★[T65_有效数字](src/main/java/math/T65_有效数字.java) [➥](https://leetcode-cn.com/problems/valid-number/) |
 | [T9_回文数](src/main/java/math/T9_回文数.java) [➥](https://leetcode-cn.com/problems/palindrome-number/) | ★[T400_第N个数字](src/main/java/math/T400_第N个数字.java) [➥](https://leetcode-cn.com/problems/nth-digit/) | ★[T233_数字1的个数](src/main/java/math/T233_数字1的个数.java) [➥](https://leetcode-cn.com/problems/number-of-digit-one/) |
-| ★[T223_矩形面积](src/main/java/math/T223_矩形面积.java) [➥](https://leetcode-cn.com/problems/rectangle-area/) |                                                              |                                                              |
+| ★[T223_矩形面积](src/main/java/math/T223_矩形面积.java) [➥](https://leetcode-cn.com/problems/rectangle-area/) | ★[T365_水壶问题](src/main/java/math/T365_水壶问题.java) [➥](https://leetcode-cn.com/problems/water-and-jug-problem/) |                                                              |
 | [T342_4的幂](src/main/java/math/T342_4的幂.java) [➥](https://leetcode-cn.com/problems/power-of-four/) |                                                              |                                                              |
 | [T258_各位相加](src/main/java/math/T258_各位相加.java) [➥](https://leetcode-cn.com/problems/add-digits/) |                                                              |                                                              |
 | [T1103_分糖果II](src/main/java/math/T1103_分糖果II.java) [➥](https://leetcode-cn.com/problems/distribute-candies-to-people/) |                                                              |                                                              |
 | [T67_二进制求和](src/main/java/math/T67_二进制求和.java) [➥](https://leetcode-cn.com/problems/add-binary/) |                                                              |                                                              |
 | [T69_x的平方根](src/main/java/math/T69_x的平方根.java) [➥](https://leetcode-cn.com/problems/sqrtx/) |                                                              |                                                              |
+| [T836_矩形重叠](src/main/java/math/T836_矩形重叠.java) [➥](https://leetcode-cn.com/problems/rectangle-overlap/) |                                                              |                                                              |
 
 
 
@@ -85,10 +88,18 @@
 | ★[T88_合并两个有序数组](src/main/java/array/T88_合并两个有序数组.java) [➥](https://leetcode-cn.com/problems/merge-sorted-array/) | ★[T240_搜索二维矩阵II](src/main/java/array/T240_搜索二维矩阵II.java) [➥](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | [T239_滑动窗口最大值](src/main/java/array/T239_滑动窗口最大值.java) [➥](https://leetcode-cn.com/problems/sliding-window-maximum/) |
 | [T27_移除元素](src/main/java/array/T27_移除元素.java) [➥](https://leetcode-cn.com/problems/remove-element/) | [T54_螺旋矩阵](src/main/java/array/T54_螺旋矩阵.java) [➥](https://leetcode-cn.com/problems/spiral-matrix/) |                                                              |
 | [T605_种花问题](src/main/java/array/T605_种花问题.java) [➥](https://leetcode-cn.com/problems/can-place-flowers/) | ★[T34_在排序数组中查找元素的第一个和最后一个位置](src/main/java/array/T34_在排序数组中查找元素的第一个和最后一个位置.java) [➥](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |                                                              |
-| [T509_斐波那契数](src/main/java/array/T509_斐波那契数.java) [➥](https://leetcode-cn.com/problems/fibonacci-number/) |                                                              |                                                              |
+| [T509_斐波那契数](src/main/java/array/T509_斐波那契数.java) [➥](https://leetcode-cn.com/problems/fibonacci-number/) | ★[T945_使数组唯一的最小增量](src/main/java/offer/T945_使数组唯一的最小增量.java) [➥](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/) |                                                              |
 | [T66_加一](src/main/java/array/T66_加一.java) [➥](https://leetcode-cn.com/problems/plus-one/) |                                                              |                                                              |
 | [T169_多数元素](src/main/java/math/T169_多数元素.java) [➥](https://leetcode-cn.com/problems/majority-element/) |                                                              |                                                              |
 | [T1013_将数组分成和相等的三个部分](src/main/java/offer/T1013_将数组分成和相等的三个部分.java) [➥](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/) |                                                              |                                                              |
+
+
+
+## 字符串
+
+| 【简单难度】 | 【中等难度】                                                 | 【困难难度】 |
+| ------------ | ------------------------------------------------------------ | ------------ |
+|              | [T151_翻转字符串里的单词](src/main/java/string/T151_翻转字符串里的单词.java) [➥](https://leetcode-cn.com/problems/reverse-words-in-a-string/) |              |
 
 
 
@@ -176,16 +187,26 @@
 | [T53I_在排序数组中查找数字I](src/main/java/offer/T53I_在排序数组中查找数字I.java) [➥](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/) | 二分查找                        | 等于第一个大于target的位置 - 第一个等于target的位置          |
 | ★[T53II_0到n减1中缺失的数字](src/main/java/offer/T53II_0到n减1中缺失的数字.java) [➥](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) | 二分查找                        |                                                              |
 | [T53III_数组中数值和下标相等的元素](src/main/java/offer/T53III_数组中数值和下标相等的元素.java) | 二分查找                        |                                                              |
-|                                                              |                                 |                                                              |
-|                                                              |                                 |                                                              |
-|                                                              |                                 |                                                              |
+| [T54_二叉搜索树的第k大节点](src/main/java/offer/T54_二叉搜索树的第k大节点.java) [➥](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | 中序遍历                        | 可以优化到不用list，而且提前退出                             |
+| [T55I_二叉树的深度](src/main/java/offer/T55I_二叉树的深度.java) [➥](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/) | 递归，层序遍历                  | 深度=max(左子树深度,右子树深度)+1，或者算有多少层            |
+| [T55II_平衡二叉树](src/main/java/offer/T55II_平衡二叉树.java) [➥](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/) | 递归，后序遍历                  | 使用后序遍历可以避免重复遍历                                 |
+| [T56I_数组中数字出现的次数](src/main/java/offer/T56I_数组中数字出现的次数.java) [➥](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/) | 异或                            | 一个数异或它本身等于0                                        |
+| [T56II_数组中数字出现的次数II](src/main/java/offer/T56II_数组中数字出现的次数II.java) [➥](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/) | 位运算，状态机                  |                                                              |
 | [T57_和为s的两个数字](src/main/java/offer/T57_和为s的两个数字.java) [➥](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/) | 双指针                          |                                                              |
 | ★[T57II_和为s的连续正数序列](src/main/java/offer/T57II_和为s的连续正数序列.java) [➥](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/) | 双指针，等差数列求和            |                                                              |
-|                                                              |                                 |                                                              |
+| [T58I_翻转单词顺序](src/main/java/offer/T58I_翻转单词顺序.java) [➥](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/) |                                 |                                                              |
+| [T58II_左旋转字符串](src/main/java/offer/T58II_左旋转字符串.java) [➥](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) | 字符串拼接，三次翻转            |                                                              |
 | ★[T59I_滑动窗口的最大值](src/main/java/offer/T59I_滑动窗口的最大值.java) [➥](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) | 双端队列，动态规划              |                                                              |
 | ★[T59II_队列的最大值](src/main/java/offer/T59II_队列的最大值.java) [➥](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/) | 双端队列                        |                                                              |
-|                                                              |                                 |                                                              |
+| ★[T60_n个骰子的点数](src/main/java/offer/T60_n个骰子的点数.java) [➥](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/) | 动态规划                        | 本题其实是斐波那契数列的变形，可运用动态规划求解             |
+| ★[T61_扑克牌中的顺子](src/main/java/offer/T61_扑克牌中的顺子.java) [➥](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | 排序，计数排序                  |                                                              |
+| [T62_圆圈中最后剩下的数字](src/main/java/offer/T62_圆圈中最后剩下的数字.java) [➥](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) |                                 |                                                              |
 | [T63_股票的最大利润](src/main/java/offer/T63_股票的最大利润.java) [➥](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/) | 动态规划                        |                                                              |
+| [T64_求1加到n](src/main/java/offer/T64_求1加到n.java) [➥](https://leetcode-cn.com/problems/qiu-12n-lcof/) | 短路求和                        |                                                              |
+| ★[T65_不用加减乘除做加法](src/main/java/offer/T65_不用加减乘除做加法.java) [➥](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/) | 位运算                          | 异或相当于无进位求和，(a&b)<<1为每一步计算的进位             |
+| [T66_构建乘积数组](src/main/java/offer/T66_构建乘积数组.java) [➥](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/) | 拆分                            | 可以拆分成2部分                                              |
+|                                                              |                                 |                                                              |
+|                                                              |                                 |                                                              |
 
 
 
@@ -199,4 +220,6 @@
 |                                                              |                          |                                  |
 |                                                              |                          |                                  |
 | [T01_06字符串压缩](src/main/java/cracking_the_coding_interview/T01_06字符串压缩.java) [➥](https://leetcode-cn.com/problems/compress-string-lcci/) | StringBuilder            | 要注意首尾字符的处理             |
+|                                                              |                          |                                  |
+| [T17_16按摩师](src/main/java/cracking_the_coding_interview/T17_16按摩师.java) [➥](https://leetcode-cn.com/problems/the-masseuse-lcci/) | 动态规划                 | 是可以间隔多个的，代码中如何体现 |
 

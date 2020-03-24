@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 
 /**
  * https://leetcode-cn.com/problems/balanced-binary-tree/
+ *
+ * @see offer.T55II_平衡二叉树#isBalanced2(offer.TreeNode)
  */
 public class T110_平衡二叉树 {
 

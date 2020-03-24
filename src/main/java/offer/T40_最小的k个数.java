@@ -48,43 +48,58 @@ public class T40_最小的k个数 {
         return ans;
     }
 
-    private void siftDown(int index, int heapSize, int[] array) {
-        int element = array[index];
-        int half = heapSize >> 1;
-        while (index < half) { // index小于第1个叶子节点的索引（非叶子节点的数量）
-            // 有2种情况
-            // 1. 只有左子节点
-            // 2. 同时有左右子节点
-
-            // 默认采用左子节点
-            int childIndex = (index << 1) + 1;
-            int child = array[childIndex];
-
-            // 右子节点
-            int rightIndex = childIndex + 1;
-            // 选出左右子节点最大的
-            if (rightIndex < heapSize && array[rightIndex] > child) {
-                child = array[childIndex = rightIndex];
-            }
-
-            if (element >= child) {
-                break;
-            }
-            array[index] = child;
-            index = childIndex;
-        }
-        array[index] = element;
+    /**
+     * 【快排】
+     * 执行用时 :1 ms, 在所有 Java 提交中击败了100.00% 的用户
+     * 内存消耗 :42.9 MB, 在所有 Java 提交中击败了100.00%的用户
+     */
+    public int[] getLeastNumbers3(int[] arr, int k) {
+        if (arr == null || k <= 0) return new int[0];
+        quickSelect(arr, 0, arr.length - 1, k);
+        return Arrays.copyOf(arr, k);
     }
 
-    private void swap(int i1, int i2, int[] array) {
-        int temp = array[i1];
-        array[i1] = array[i2];
-        array[i2] = temp;
+    // 对[start,end]范围内的元素进行快排
+    private void quickSelect(int[] nums, int start, int end, int k) {
+        // 只剩下一个元素就退出（等于说明只剩下1个元素）
+        if (start >= end) return;
+        int left = start;
+        int right = end;
+        int pivot = nums[(left + right) / 2]; // 每次选择中间的作为轴点元素
+        while (left <= right) {
+            // 找到左边第1个大于等于轴点元素的位置
+            while (left <= right && nums[left] < pivot) {
+                left++;
+            }
+            // 找到右边第1个小于等于轴点元素的位置
+            while (left <= right && nums[right] > pivot) {
+                right--;
+            }
+            if (left <= right) {
+                int temp = nums[left];
+                nums[left] = nums[right];
+                nums[right] = temp;
+                left++;
+                right--;
+            }
+        }
+        // 到这里，左边[0,left)都是小于pivot，右边(right,len-1]都是大于pivot
+        if (right >= k) { // right==k时，左边+中间只有[0,right-1]，right还没有包含进去
+            quickSelect(nums, start, right, k);
+        } else { // 左边排序个数少于k个，还需要继续排右边未排序的
+            quickSelect(nums, left, end, k);
+        }
     }
 
     @Test
     public void test() {
         System.out.println(Arrays.toString(getLeastNumbers(new int[]{3, 2, 1}, 2)));
         System.out.println(Arrays.toString(getLeastNumbers2(new int[]{3, 2, 1}, 2)));
+        System.out.println(Arrays.toString(getLeastNumbers3(new int[]{3, 2, 1}, 2)));
+        System.out.println(Arrays.toString(getLeastNumbers(new int[]{0, 0, 1, 2, 4, 2, 2, 3, 1, 4}, 8)));
+        System.out.println(Arrays.toString(getLeastNumbers3(new int[]{0, 0, 1, 2, 4, 2, 2, 3, 1, 4}, 8)));
+        System.out.println(Arrays.toString(getLeastNumbers(new int[]{0, 1, 1, 2, 4, 4, 1, 3, 3, 2}, 6)));
+        System.out.println(Arrays.toString(getLeastNumbers3(new int[]{0, 1, 1, 2, 4, 4, 1, 3, 3, 2}, 6)));
+
     }
 }
