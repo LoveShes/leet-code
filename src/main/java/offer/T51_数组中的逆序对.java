@@ -15,25 +15,25 @@ public class T51_数组中的逆序对 {
         int count = 0;
         for (int i = 0; i < nums.length; i++) {
             for (int j = i; j < nums.length; j++) {
-                if (nums[i]>nums[j]) count++;
+                if (nums[i] > nums[j]) count++;
             }
         }
         return count;
     }
 
     /**
-     * TODO【】
+     * TODO【归并排序】
      */
     public int reversePairs2(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
         int count = 0;
-
         return count;
     }
 
+
     @Test
     public void test() {
-        assert reversePairs(new int[]{7, 5, 6, 4}) == 5 : reversePairs(new int[]{7, 5, 6, 4});
-        assert reversePairs2(new int[]{7, 5, 6, 4}) == 5 : reversePairs2(new int[]{7, 5, 6, 4});
+        System.out.println(reversePairs(new int[]{7, 5, 6, 4})); // 5
+        System.out.println(reversePairs2(new int[]{7, 5, 6, 4})); // 5
     }
 }

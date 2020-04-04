@@ -1,7 +1,7 @@
 package offer;
 
-import offer.linkedlist.LinkedList;
-import offer.linkedlist.ListNode;
+import offer.tools.linkedlist.LinkedList;
+import offer.tools.linkedlist.ListNode;
 import org.junit.jupiter.api.Test;
 
 /**

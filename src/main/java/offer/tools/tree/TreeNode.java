@@ -1,12 +1,12 @@
-package offer;
+package offer.tools.tree;
 
 public class TreeNode {
 
-    int val;
-    TreeNode left;
-    TreeNode right;
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
 
-    TreeNode(int x) {
+    public TreeNode(int x) {
         val = x;
     }
 
@@ -15,6 +15,7 @@ public class TreeNode {
         StringBuilder sb = new StringBuilder();
         toString(this, sb, "");
         return sb.toString();
+        // return "" + val;
     }
 
     private void toString(TreeNode node, StringBuilder sb, String prefix) {

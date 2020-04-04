@@ -13,8 +13,7 @@ public class T14I_剪绳子 {
      * 内存消耗 :36.1 MB, 在所有 Java 提交中击败了100.00%的用户
      */
     public int cuttingRope(int n) {
-        if (n == 2) return 1;
-        if (n == 3) return 2;
+        if (n <= 3) return n - 1;
 
         int[] dp = new int[n + 1];
         dp[2] = 2; // 注意这里特殊值的处理，否则后面算不出来
@@ -30,7 +29,7 @@ public class T14I_剪绳子 {
     }
 
     /**
-     * 【找数学规律】
+     * 【找数学规律/贪婪】
      * 求导可知，当分成 n/e 段时，乘积最大，每一段长度为 e，可得每一段长度为3或者2时最后的乘积最大
      * 执行用时 :0 ms, 在所有 Java 提交中击败了100.00% 的用户
      * 内存消耗 :36.1 MB, 在所有 Java 提交中击败了100.00%的用户
@@ -41,7 +40,7 @@ public class T14I_剪绳子 {
         int r = n % 3;
         int a = n / 3;
         if (r == 0) return (int) Math.pow(3, a);
-        if (r == 1) return (int) Math.pow(3, a - 1) * 4;
+        if (r == 1) return (int) Math.pow(3, a - 1) * 4; // 3*3*...*3*1比3*3*...*2*2要小
         return (int) Math.pow(3, a) * 2;
     }
 

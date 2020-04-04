@@ -1,6 +1,6 @@
 # LeetCode刷题笔记
 
-> 创建于2019年12月31日，最近更新于2020年2月18日
+> 创建于2019年12月31日，最近更新于2020年3月27日
 
 ## 链表
 
@@ -25,9 +25,9 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
 | [T20_有效的括号](src/main/java/stack/T20_有效的括号.java) [➥](https://leetcode-cn.com/problems/valid-parentheses/) | ★[T856_括号的分数](src/main/java/stack/T856_括号的分数.java) [➥](https://leetcode-cn.com/problems/score-of-parentheses/) |              |
 | [T150_逆波兰表达式求值](src/main/java/stack/T150_逆波兰表达式求值.java) [➥](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | ★[T946_验证栈序列](src/main/java/stack/T946_验证栈序列.java) [➥](https://leetcode-cn.com/problems/validate-stack-sequences/) |              |
+| [T155_最小栈](src/main/java/stack/T155_最小栈.java) [➥](https://leetcode-cn.com/problems/min-stack/) |                                                              |              |
 | [T232_用栈实现队列](src/main/java/stack/T232_用栈实现队列.java) [➥](https://leetcode-cn.com/problems/implement-queue-using-stacks/) |                                                              |              |
 | [T225_用队列实现栈](src/main/java/stack/T225_用队列实现栈.java) [➥](https://leetcode-cn.com/problems/implement-stack-using-queues/) |                                                              |              |
-| [T155_最小栈](src/main/java/stack/T155_最小栈.java) [➥](https://leetcode-cn.com/problems/min-stack/) |                                                              |              |
 
 
 
@@ -52,16 +52,17 @@
 | ★[T590_N叉树的后序遍历](src/main/java/tree/T590_N叉树的后序遍历.java) [➥](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) | [T105_从前序与中序遍历序列构造二叉树](src/main/java/tree/T105_从前序与中序遍历序列构造二叉树.java) [➥](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |                                                              |
 | [T101_对称二叉树](src/main/java/tree/T101_对称二叉树.java) [➥](https://leetcode-cn.com/problems/symmetric-tree/) | [T103_二叉树的锯齿形层次遍历](src/main/java/tree/T103_二叉树的锯齿形层次遍历.java) [➥]() |                                                              |
 | [T543_二叉树的直径](src/main/java/tree/T543_二叉树的直径.java) [➥](https://leetcode-cn.com/problems/diameter-of-binary-tree/) | [T113_路径总和II](src/main/java/tree/T113_路径总和II.java) [➥](https://leetcode-cn.com/problems/path-sum-ii/) |                                                              |
+| ★[T235_二叉搜索树的最近公共祖先](src/main/java/tree/T235_二叉搜索树的最近公共祖先.java) [➥](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [T236_二叉树的最近公共祖先](src/main/java/tree/T236_二叉树的最近公共祖先.java) [➥](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) |                                                              |
 
 
 
 ## 哈希表
 
-| 【简单难度】                                                 | 【中等难度】 | 【困难难度】 |
-| ------------------------------------------------------------ | ------------ | ------------ |
-| [T1_两数之和](src/main/java/hashtable/T1_两数之和.java) [➥](https://leetcode-cn.com/problems/two-sum/) |              |              |
-| [T1160_拼写单词](src/main/java/hashtable/T1160_拼写单词.java) [➥](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/) |              |              |
-| [T409_最长回文串](src/main/java/hashtable/T409_最长回文串.java) [➥](https://leetcode-cn.com/problems/longest-palindrome/) |              |              |
+| 【简单难度】                                                 | 【中等难度】                                                 | 【困难难度】 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
+| [T1_两数之和](src/main/java/hashtable/T1_两数之和.java) [➥](https://leetcode-cn.com/problems/two-sum/) | ★[T820_单词的压缩编码](src/main/java/hashtable/T820_单词的压缩编码.java) [➥](https://leetcode-cn.com/problems/short-encoding-of-words/) |              |
+| [T409_最长回文串](src/main/java/hashtable/T409_最长回文串.java) [➥](https://leetcode-cn.com/problems/longest-palindrome/) |                                                              |              |
+| [T1160_拼写单词](src/main/java/hashtable/T1160_拼写单词.java) [➥](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/) |                                                              |              |
 
 
 
@@ -69,15 +70,16 @@
 
 | 【简单难度】                                                 | 【中等难度】                                                 | 【困难难度】                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [T7_整数反转](src/main/java/math/T7_整数反转.java) [➥](https://leetcode-cn.com/problems/reverse-integer/) | [T50_Pow_x_n](src/main/java/math/T50_Pow_x_n.java) [➥](https://leetcode-cn.com/problems/powx-n/) | ★[T65_有效数字](src/main/java/math/T65_有效数字.java) [➥](https://leetcode-cn.com/problems/valid-number/) |
-| [T9_回文数](src/main/java/math/T9_回文数.java) [➥](https://leetcode-cn.com/problems/palindrome-number/) | ★[T400_第N个数字](src/main/java/math/T400_第N个数字.java) [➥](https://leetcode-cn.com/problems/nth-digit/) | ★[T233_数字1的个数](src/main/java/math/T233_数字1的个数.java) [➥](https://leetcode-cn.com/problems/number-of-digit-one/) |
-| ★[T223_矩形面积](src/main/java/math/T223_矩形面积.java) [➥](https://leetcode-cn.com/problems/rectangle-area/) | ★[T365_水壶问题](src/main/java/math/T365_水壶问题.java) [➥](https://leetcode-cn.com/problems/water-and-jug-problem/) |                                                              |
-| [T342_4的幂](src/main/java/math/T342_4的幂.java) [➥](https://leetcode-cn.com/problems/power-of-four/) |                                                              |                                                              |
+| [T7_整数反转](src/main/java/math/T7_整数反转.java) [➥](https://leetcode-cn.com/problems/reverse-integer/) | ★[T8_字符串转换整数](src/main/java/math/T8_字符串转换整数.java) [➥](https://leetcode-cn.com/problems/string-to-integer-atoi/) | ★[T65_有效数字](src/main/java/math/T65_有效数字.java) [➥](https://leetcode-cn.com/problems/valid-number/) |
+| [T9_回文数](src/main/java/math/T9_回文数.java) [➥](https://leetcode-cn.com/problems/palindrome-number/) | [T50_Pow_x_n](src/main/java/math/T50_Pow_x_n.java) [➥](https://leetcode-cn.com/problems/powx-n/) | ★[T233_数字1的个数](src/main/java/math/T233_数字1的个数.java) [➥](https://leetcode-cn.com/problems/number-of-digit-one/) |
+| [T67_二进制求和](src/main/java/math/T67_二进制求和.java) [➥](https://leetcode-cn.com/problems/add-binary/) | ★[T365_水壶问题](src/main/java/math/T365_水壶问题.java) [➥](https://leetcode-cn.com/problems/water-and-jug-problem/) |                                                              |
+| [T69_x的平方根](src/main/java/math/T69_x的平方根.java) [➥](https://leetcode-cn.com/problems/sqrtx/) | ★[T400_第N个数字](src/main/java/math/T400_第N个数字.java) [➥](https://leetcode-cn.com/problems/nth-digit/) |                                                              |
+| ★[T223_矩形面积](src/main/java/math/T223_矩形面积.java) [➥](https://leetcode-cn.com/problems/rectangle-area/) |                                                              |                                                              |
 | [T258_各位相加](src/main/java/math/T258_各位相加.java) [➥](https://leetcode-cn.com/problems/add-digits/) |                                                              |                                                              |
-| [T1103_分糖果II](src/main/java/math/T1103_分糖果II.java) [➥](https://leetcode-cn.com/problems/distribute-candies-to-people/) |                                                              |                                                              |
-| [T67_二进制求和](src/main/java/math/T67_二进制求和.java) [➥](https://leetcode-cn.com/problems/add-binary/) |                                                              |                                                              |
-| [T69_x的平方根](src/main/java/math/T69_x的平方根.java) [➥](https://leetcode-cn.com/problems/sqrtx/) |                                                              |                                                              |
+| [T342_4的幂](src/main/java/math/T342_4的幂.java) [➥](https://leetcode-cn.com/problems/power-of-four/) |                                                              |                                                              |
 | [T836_矩形重叠](src/main/java/math/T836_矩形重叠.java) [➥](https://leetcode-cn.com/problems/rectangle-overlap/) |                                                              |                                                              |
+| [T1103_分糖果II](src/main/java/math/T1103_分糖果II.java) [➥](https://leetcode-cn.com/problems/distribute-candies-to-people/) |                                                              |                                                              |
+| ★[T892_三维形体的表面积](src/main/java/math/T892_三维形体的表面积.java) [➥](https://leetcode-cn.com/problems/surface-area-of-3d-shapes/) |                                                              |                                                              |
 
 
 
@@ -85,13 +87,16 @@
 
 | 【简单难度】                                                 | 【中等难度】                                                 | 【困难难度】                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ★[T88_合并两个有序数组](src/main/java/array/T88_合并两个有序数组.java) [➥](https://leetcode-cn.com/problems/merge-sorted-array/) | ★[T240_搜索二维矩阵II](src/main/java/array/T240_搜索二维矩阵II.java) [➥](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | [T239_滑动窗口最大值](src/main/java/array/T239_滑动窗口最大值.java) [➥](https://leetcode-cn.com/problems/sliding-window-maximum/) |
-| [T27_移除元素](src/main/java/array/T27_移除元素.java) [➥](https://leetcode-cn.com/problems/remove-element/) | [T54_螺旋矩阵](src/main/java/array/T54_螺旋矩阵.java) [➥](https://leetcode-cn.com/problems/spiral-matrix/) |                                                              |
-| [T605_种花问题](src/main/java/array/T605_种花问题.java) [➥](https://leetcode-cn.com/problems/can-place-flowers/) | ★[T34_在排序数组中查找元素的第一个和最后一个位置](src/main/java/array/T34_在排序数组中查找元素的第一个和最后一个位置.java) [➥](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |                                                              |
-| [T509_斐波那契数](src/main/java/array/T509_斐波那契数.java) [➥](https://leetcode-cn.com/problems/fibonacci-number/) | ★[T945_使数组唯一的最小增量](src/main/java/offer/T945_使数组唯一的最小增量.java) [➥](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/) |                                                              |
-| [T66_加一](src/main/java/array/T66_加一.java) [➥](https://leetcode-cn.com/problems/plus-one/) |                                                              |                                                              |
-| [T169_多数元素](src/main/java/math/T169_多数元素.java) [➥](https://leetcode-cn.com/problems/majority-element/) |                                                              |                                                              |
+| [T27_移除元素](src/main/java/array/T27_移除元素.java) [➥](https://leetcode-cn.com/problems/remove-element/) | ★[T34_在排序数组中查找元素的第一个和最后一个位置](src/main/java/array/T34_在排序数组中查找元素的第一个和最后一个位置.java) [➥](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [T239_滑动窗口最大值](src/main/java/array/T239_滑动窗口最大值.java) [➥](https://leetcode-cn.com/problems/sliding-window-maximum/) |
+| [T66_加一](src/main/java/array/T66_加一.java) [➥](https://leetcode-cn.com/problems/plus-one/) | [T54_螺旋矩阵](src/main/java/array/T54_螺旋矩阵.java) [➥](https://leetcode-cn.com/problems/spiral-matrix/) |                                                              |
+| ★[T88_合并两个有序数组](src/main/java/array/T88_合并两个有序数组.java) [➥](https://leetcode-cn.com/problems/merge-sorted-array/) | ★[T240_搜索二维矩阵II](src/main/java/array/T240_搜索二维矩阵II.java) [➥](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) |                                                              |
+| [T169_多数元素](src/main/java/math/T169_多数元素.java) [➥](https://leetcode-cn.com/problems/majority-element/) | ★[T945_使数组唯一的最小增量](src/main/java/offer/T945_使数组唯一的最小增量.java) [➥](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/) |                                                              |
+| [T349_两个数组的交集](src/main/java/array/T349_两个数组的交集.java) [➥](https://leetcode-cn.com/problems/intersection-of-two-arrays/) |                                                              |                                                              |
+| [T509_斐波那契数](src/main/java/array/T509_斐波那契数.java) [➥](https://leetcode-cn.com/problems/fibonacci-number/) |                                                              |                                                              |
+| [T605_种花问题](src/main/java/array/T605_种花问题.java) [➥](https://leetcode-cn.com/problems/can-place-flowers/) |                                                              |                                                              |
 | [T1013_将数组分成和相等的三个部分](src/main/java/offer/T1013_将数组分成和相等的三个部分.java) [➥](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/) |                                                              |                                                              |
+| [T999_车的可用捕获量](src/main/java/array/T999_车的可用捕获量.java) [➥](https://leetcode-cn.com/problems/available-captures-for-rook/) |                                                              |                                                              |
+| [T914_卡牌分组](src/main/java/array/T914_卡牌分组.java) [➥](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/) |                                                              |                                                              |
 
 
 
@@ -105,9 +110,9 @@
 
 ## 位运算
 
-| 【简单难度】                                                 | 【中等难度】 | 【困难难度】 |
-| ------------------------------------------------------------ | ------------ | ------------ |
-| [T191_位1的个数](src/main/java/bit/T191_位1的个数.java) [➥](https://leetcode-cn.com/problems/number-of-1-bits/) |              |              |
+| 【简单难度】                                                 | 【中等难度】                                                 | 【困难难度】 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
+| [T191_位1的个数](src/main/java/bit/T191_位1的个数.java) [➥](https://leetcode-cn.com/problems/number-of-1-bits/) | [T289_生命游戏](src/main/java/bit/T289_生命游戏.java) [➥](https://leetcode-cn.com/problems/game-of-life/) |              |
 
 
 
@@ -116,14 +121,16 @@
 | 【简单难度】                                                 | 【中等难度】                                                 | 【困难难度】                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [T455_分发饼干](src/main/java/alogorithm/T455_分发饼干.java) [➥](https://leetcode-cn.com/problems/assign-cookies/) | ★[T322_零钱兑换](src/main/java/alogorithm/T322_零钱兑换.java) [➥](https://leetcode-cn.com/problems/coin-change/) | [T154_寻找旋转排序数组中的最小值II](src/main/java/alogorithm/T154_寻找旋转排序数组中的最小值II.java) [➥](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) |
-| ★[T53_最大子序和](src/main/java/alogorithm/T53_最大子序和.java) [➥](https://leetcode-cn.com/problems/maximum-subarray/) | ★[T300_最长上升子序列](src/main/java/alogorithm/T300_最长上升子序列.java) [➥](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [T10_正则表达式匹配](src/main/java/alogorithm/T10_正则表达式匹配.java) [➥](https://leetcode-cn.com/problems/regular-expression-matching/) |
-| ★[T994_腐烂的橘子](src/main/java/alogorithm/T994_腐烂的橘子.java) [➥](https://leetcode-cn.com/problems/rotting-oranges/) | ★[T1143_最长公共子序列](src/main/java/alogorithm/T1143_最长公共子序列.java) [➥](https://leetcode-cn.com/problems/longest-common-subsequence/) |                                                              |
+| ★[T53_最大子序和](src/main/java/alogorithm/T53_最大子序和.java) [➥](https://leetcode-cn.com/problems/maximum-subarray/) | ★[T300_最长上升子序列](src/main/java/alogorithm/T300_最长上升子序列.java) [➥](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | ★[T10_正则表达式匹配](src/main/java/alogorithm/T10_正则表达式匹配.java) [➥](https://leetcode-cn.com/problems/regular-expression-matching/) |
+| ★[T994_腐烂的橘子](src/main/java/alogorithm/T994_腐烂的橘子.java) [➥](https://leetcode-cn.com/problems/rotting-oranges/) | ★[T1143_最长公共子序列](src/main/java/alogorithm/T1143_最长公共子序列.java) [➥](https://leetcode-cn.com/problems/longest-common-subsequence/) | ★[T42_接雨水](src/main/java/alogorithm/T42_接雨水.java) [➥](https://leetcode-cn.com/problems/trapping-rain-water/) |
 | [T121_买卖股票的最佳时机](src/main/java/alogorithm/T121_买卖股票的最佳时机.java) [➥](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [T153_寻找旋转排序数组中的最小值](src/main/java/alogorithm/T153_寻找旋转排序数组中的最小值.java) [➥](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/description/) |                                                              |
 | ★[T1071_字符串的最大公因子](src/main/java/alogorithm/T1071_字符串的最大公因子.java) [➥](https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/) | [T79_单词搜索](src/main/java/alogorithm/T79_单词搜索.java) [➥](https://leetcode-cn.com/problems/word-search/) |                                                              |
 |                                                              | [T343_整数拆分](src/main/java/alogorithm/T343_整数拆分.java) [➥](https://leetcode-cn.com/problems/integer-break/) |                                                              |
 |                                                              | ★[T3_无重复字符的最长子串](src/main/java/alogorithm/T3_无重复字符的最长子串.java) [➥](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) |                                                              |
 |                                                              | ★[T264_丑数II](src/main/java/alogorithm/T264_丑数II.java) [➥](https://leetcode-cn.com/problems/ugly-number-ii/) |                                                              |
 |                                                              | ★[T695_岛屿的最大面积](src/main/java/alogorithm/T695_岛屿的最大面积.java) [➥]() |                                                              |
+|                                                              | ★[T1162_地图分析](src/main/java/alogorithm/T1162_地图分析.java) [➥](https://leetcode-cn.com/problems/as-far-from-land-as-possible/) |                                                              |
+|                                                              | ★[T1111_有效括号的嵌套深度](src/main/java/alogorithm/T1111_有效括号的嵌套深度.java) [➥](https://leetcode-cn.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/) |                                                              |
 
 
 
@@ -147,15 +154,15 @@
 | [T14II_剪绳子II](src/main/java/offer/T14II_剪绳子II.java) [➥](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/) | 贪婪算法                        |                                                              |
 | [T15_二进制中1的个数](src/main/java/offer/T15_二进制中1的个数.java) [➥](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | 位运算，掩码                    |                                                              |
 | [T16_数值的整数次方](src/main/java/offer/T16_数值的整数次方.java) [➥](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) | 分治，快速幂                    | `-Integer.MIN_VALUE == Integer.MIN_VALUE`                    |
-| [T17_打印从1到最大的n位数](src/main/java/offer/T17_打印从1到最大的n位数.java) [➥](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | 大数问题                        |                                                              |
+| [T17_打印从1到最大的n位数](src/main/java/offer/T17_打印从1到最大的n位数.java) [➥](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | 大数问题                        | 要注意位数过大时，可能会导致整型溢出，考虑用字符串           |
 | [T18_删除链表的节点](src/main/java/offer/T18_删除链表的节点.java) [➥](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | 哑结点                          |                                                              |
 | ★[T19_正则表达式匹配](src/main/java/offer/T19_正则表达式匹配.java) [➥](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/) | ==TODO==                        |                                                              |
-| ★[T20_表示数值的字符串](src/main/java/offer/T20_表示数值的字符串.java) [➥](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/) | ==TODO==                        |                                                              |
+| ★[T20_表示数值的字符串](src/main/java/offer/T20_表示数值的字符串.java) [➥](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/) |                                 | 关键是对各种情况都要考虑到，适合进行思维训练                 |
 | [T21_调整数组顺序使奇数位于偶数前面](src/main/java/offer/T21_调整数组顺序使奇数位于偶数前面.java) [➥](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | 逆序对                          |                                                              |
 | [T22_链表中倒数第k个节点](src/main/java/offer/T22_链表中倒数第k个节点.java) [➥](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | 双指针                          |                                                              |
 | [T24_反转链表](src/main/java/offer/T24_反转链表.java) [➥](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) |                                 |                                                              |
 | [T25_合并两个排序的链表](src/main/java/offer/T25_合并两个排序的链表.java) [➥](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) |                                 |                                                              |
-| ★[T26_树的子结构](src/main/java/offer/T26_树的子结构.java) [➥](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/) | ==TODO==                        |                                                              |
+| ★[T26_树的子结构](src/main/java/offer/T26_树的子结构.java) [➥](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/) | 递归                            | 先找出对应节点，再从对应节点开始往下遍历看是否相等           |
 | [T27_二叉树的镜像](src/main/java/offer/T27_二叉树的镜像.java) [➥](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/) | 递归，迭代                      |                                                              |
 | [T28_对称的二叉树](src/main/java/offer/T28_对称的二叉树.java) [➥](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/) | 递归，迭代                      |                                                              |
 | ★[T29_顺时针打印矩阵](src/main/java/offer/T29_顺时针打印矩阵.java) [➥](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/) |                                 |                                                              |
@@ -205,8 +212,9 @@
 | [T64_求1加到n](src/main/java/offer/T64_求1加到n.java) [➥](https://leetcode-cn.com/problems/qiu-12n-lcof/) | 短路求和                        |                                                              |
 | ★[T65_不用加减乘除做加法](src/main/java/offer/T65_不用加减乘除做加法.java) [➥](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/) | 位运算                          | 异或相当于无进位求和，(a&b)<<1为每一步计算的进位             |
 | [T66_构建乘积数组](src/main/java/offer/T66_构建乘积数组.java) [➥](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/) | 拆分                            | 可以拆分成2部分                                              |
-|                                                              |                                 |                                                              |
-|                                                              |                                 |                                                              |
+| [T67_把字符串转换成整数](src/main/java/offer/T67_把字符串转换成整数.java) [➥](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/) | 溢出情况的处理                  | 注意空格，取值时避免索引超范围                               |
+| ★[T68I_二叉搜索树的最近公共祖先](src/main/java/offer/T68I_二叉搜索树的最近公共祖先.java) [➥](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/) | 二叉搜索树性质                  | 缩小问题规模                                                 |
+| ★[T68II_二叉树的最近公共祖先](src/main/java/offer/T68II_二叉树的最近公共祖先.java) [➥](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/) | 递归，路径                      | **务必记住求根节点到某节点的路径的算法**                     |
 
 
 

@@ -1,6 +1,6 @@
 package offer;
 
-import offer.doubly.Node;
+import offer.tools.doubly.Node;
 import org.junit.jupiter.api.Test;
 
 import java.util.Stack;

@@ -1,6 +1,6 @@
 package tree;
 
-import offer.TreeNode;
+import offer.tools.tree.TreeNode;
 
 /**
  * https://leetcode-cn.com/problems/path-sum-ii/

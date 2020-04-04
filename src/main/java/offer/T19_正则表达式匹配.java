@@ -64,15 +64,15 @@ public class T19_正则表达式匹配 {
 
     @Test
     public void test() {
-        // assert !isMatch("aa", "a");
-        // assert isMatch("aa", ".a");
-        // assert isMatch("aaa", "a*");
-        // assert isMatch("ab", ".*");
-        // assert isMatch("aab", "c*a*b");
-        // assert isMatch("aab", "...");
-        // assert isMatch("aab", "ab*.a*b");
-        // assert !isMatch("aab", "*...");
-        // assert !isMatch("mississippi", "mis*is*p*.");
+        assert !isMatch("aa", "a");
+        assert isMatch("aa", ".a");
+        assert isMatch("aaa", "a*");
+        assert isMatch("ab", ".*");
+        assert isMatch("aab", "c*a*b");
+        assert isMatch("aab", "...");
+        assert isMatch("aab", "ab*.a*b");
+        assert !isMatch("aab", "*...");
+        assert !isMatch("mississippi", "mis*is*p*.");
         assert !isMatch("ab", ".*c");
     }
 

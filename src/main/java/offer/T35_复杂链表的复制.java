@@ -1,6 +1,6 @@
 package offer;
 
-import offer.random.Node;
+import offer.tools.random.Node;
 import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;

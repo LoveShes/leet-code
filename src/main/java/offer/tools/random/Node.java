@@ -1,4 +1,4 @@
-package offer.random;
+package offer.tools.random;
 
 public class Node {
     public int val;

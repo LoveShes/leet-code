@@ -1,4 +1,4 @@
-package offer.linkedlist;
+package offer.tools.linkedlist;
 
 public class LinkedList {
 

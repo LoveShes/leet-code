@@ -1,5 +1,6 @@
 package offer;
 
+import offer.tools.tree.TreeNode;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
@@ -73,11 +74,11 @@ public class T07_重建二叉树 {
     @Test
     public void test() {
         System.out.println(buildTree2(new int[]{3, 9, 20, 15, 7}, new int[]{9, 3, 15, 20, 7}));
-        // System.out.println(buildTree(new int[]{3}, new int[]{3}));
-        // System.out.println(buildTree(new int[]{}, new int[]{}));
-        // System.out.println(buildTree(new int[]{1, 2}, new int[]{2, 1}));
-        // System.out.println(buildTree(new int[]{1, 2}, new int[]{1, 2}));
-        // System.out.println(buildTree(new int[]{1, 2, 3}, new int[]{3, 2, 1}));
+        System.out.println(buildTree(new int[]{3}, new int[]{3}));
+        System.out.println(buildTree(new int[]{}, new int[]{}));
+        System.out.println(buildTree(new int[]{1, 2}, new int[]{2, 1}));
+        System.out.println(buildTree(new int[]{1, 2}, new int[]{1, 2}));
+        System.out.println(buildTree(new int[]{1, 2, 3}, new int[]{3, 2, 1}));
     }
 
     public void test1(int[] a, int[] b) {

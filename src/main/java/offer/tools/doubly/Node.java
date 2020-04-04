@@ -1,4 +1,4 @@
-package offer.doubly;
+package offer.tools.doubly;
 
 public class Node {
     public int val;
